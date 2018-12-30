@@ -1,0 +1,25 @@
+Big 0 - worse case scenario 
+
+We say that an algorithm is O(f(n)) if the number of simple operations the computer has to do is eventually less than a constant
+times f(n), as n increases. 
++ f(n) could be linear (f(n) = n)
++ f(n) could be quadratic (f(n) = n2)
++ f(n) could be constant (f(n) = 1)
++ f(n) could be something different entirely
+
+Big O Shorthands
+1. Arithmetic operations are constant. 
+2. Variable assignment is constant.
+3. Accessing elements in an array (by index) or object (by key) is constant.
+4. In a loop, the time complexity is the length of the loop times the complexity of whatever happens inside the loop.
+
+function logAtLeast5(n)  {
+  for (var i = 1; i <= Math.max(5, n); i++) {
+    console.log(i); 
+  }
+}
+function logAtMost5(n)  {
+  for (var i = 1; i <= Math.min(5, n); i++) {
+    console.log(i); 
+  }
+}
