@@ -1,0 +1,13 @@
+#+TITLE: Computer Science
+** Time Complexity 
+   Its a standard way of analyzing and comparing different algorithms. 
+** Math: 
+*** Logarithmic Functions
+*** Factorial Functions
+*** Algebraic Expressions
+*** n-notation Introduction
+*** n-notation Scaling
+*** n-notation Example
+*** Big-O Notation
+*** Big-O Notation Example
+   
