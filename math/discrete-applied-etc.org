@@ -1,0 +1,5 @@
+#+TITLE: Math Refresher 
+
+** Logarithms 
+   + Logs are the inverse of exponentials
+   + Log-base2(n) = 8 
