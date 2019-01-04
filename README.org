@@ -10,4 +10,34 @@
 *** n-notation Example
 *** Big-O Notation
 *** Big-O Notation Example
+
+** Syllabus 
+   Data Structures :: an exploration of data, data representation and data structures. 
+
+   Topics include low-level data representation of:
+      + numbers 
+      + text 
+      + records 
+      + arrays 
+      + linked lists
+      + stacks 
+      + queues
+      + binary trees
+      + graphs 
+      + hash tables
    
+*** Algorithms
+**** Boolean Logic
+**** Sets 
+**** Complexity
+**** Iteration 
+**** Recursion 
+**** Divide and Conquer 
+**** Cryptography 
+
+*** Communications 
+***** Symmetric Encryption
+***** Digital Signatures 
+***** Public Key cryptograhy
+
+*** Computation
