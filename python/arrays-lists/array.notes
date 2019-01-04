@@ -1,0 +1,75 @@
+Arrays 
+
+x = 5 
+y = 10 
+
+x -> in memory address space is perhaps 0x00 
+y -> in memory address space is perhaps 0x01
+
+or some arbitrary addressing 
+
+array = [2,3,2,3,4,5,5]
+
+This too can be assigned to 0x00 with the exception that these chunks[indices] are all in that space and are then assigned.
+[0][1][2] etc 
+
+Fixed Arrays
+[2][3][2][3][4][5][5]
+ 0  1  2  3  4  5  6 # indices 
+
+Arrays are segments of memory - you're asking the memory for a place of n length of values.
+
+Declaration x = []
+Assignment  x = [1, 2, 3, 4, 5]
+
+# Grab the last element of the array.
+n - 1 
+
+# Anything outside of the given requested array is usually garbage or is considered 'outside the buffer'.
+  *hint buffer overflow
+  If you try to access something outside of n - 1, you SEGFAULT because you haven't asked for permission to 
+  be outside of the boundary.
+
+Fixed Array Runtimes 
+
+Insert (Rand)  - O(n) -> assume you don't know where this is inserting 
+x = [2, 4, 5]
+x.insert(1, 3)
+
+Insert (Front) - O(n) 
+Insert (Back)  - O(1)
+
+Delete (Front) - O(n)
+Delete (Back)  - O(1)
+
+Search (Unsorted) - O(n)
+Search (Sorted) - O(log n)
+
+# Fixed Array Search(sorted)
+
+O(log n) - binary search algorithm 
+
+# Does 19 exist? 
+x = [1, 5, 7, 8, 10, 12, 17, 19, 20, 40, 52]
+
+is: 
+[0] = 19 # ? false
+[1] = 19 # ? false
+[2] = 19 # ? false
+[3] = 19 # ? false
+[4] = 19 # ? false
+[5] = 19 # ? true
+
+log(n) formula:
+L + R / 2 
+
+L = beginning of array 
+R = end of array
+
+0 + 10 / 2 = 5 
+x[5] = 12 ? search(19) # is 12 less than 19? If yes, then all the sorted L are discarded and now the new L=[6]
+
+6 + 10 / 2 
+[8] = 20 ? search(19) # is 20 greater or less than 19 - discard everything greater than 20 L[13/2 = truncation 6]
+
+128 - 64 - 32 - 16 - 8 - 4 - 2 - 1
