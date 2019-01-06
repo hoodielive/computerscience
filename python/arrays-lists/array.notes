@@ -72,4 +72,4 @@ x[5] = 12 ? search(19) # is 12 less than 19? If yes, then all the sorted L are d
 6 + 10 / 2 
 [8] = 20 ? search(19) # is 20 greater or less than 19 - discard everything greater than 20 L[13/2 = truncation 6]
 
-128 - 64 - 32 - 16 - 8 - 4 - 2 - 1
+128 - 64 - 32 - 16 - 8 - 4 - 2 - 1 # remember the rules
