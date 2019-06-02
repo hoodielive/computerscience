@@ -1,0 +1,9 @@
+Operating Systems from Scratch 
+
+* Combination of hardware, software and data which is used to solve the problems humans create. 
+
+H/W: 
+  1. CPU 
+  2. Storage
+      a. Ram - Random Access Memory (not permanent, Access time is fast) 
+      b. HD - Permanent storage (cache and register, Access time is slow (with some contigencies))
