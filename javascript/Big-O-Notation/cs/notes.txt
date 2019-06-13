@@ -23,3 +23,20 @@ function logAtMost5(n)  {
     console.log(i); 
   }
 }
+
++ time ( exec time or execution time) 
++ space (memory consumed) 
+
+Big-O primer : 
+	- Big-O-Notation measures the worst-case complexity of an algorithm. 
+	- n represents the number of inputs 
+	- The question is poses is, "What will happen as n approaches infinity?" 
+	- When you implement an algorithm, Big-O-Notation is important because it tells you how efficient an algorithm
+	  is. 
+Again -> O(1) is constant time - does not change with respect to input space. 
+Example: 
+	Accessing an item in the array by its index. 
+
+Again -> O(n) is linear time and applies to algorithms that must do n operations in the worst-case scenario.
+
+
