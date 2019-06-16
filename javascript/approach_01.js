@@ -1,0 +1,39 @@
+let hotels = [
+    { price: 200, brand: 'Estin' }, 
+    { price: 50, brand: 'Best Eastern' }, 
+    { price: 175, brand: 'Radishin' }, 
+]
+/**
+As our data grows, how much does our work increase? 
+
+    Quadratic time 
+
+# of hotels (n)
+# Ops 2x
+
+We call this n^2, where n is the number of hotels. As n grows, the amount of work increases at that rate.
+
+*/ 
+
+Approach # 2: Track min & max
+How many comparisons are made? 
+
+We consider this 2n because as the data grows, the amount of work increases by 2. 
+
+# Sorted List
+If list was sorted how might you find the MIN? 
+    constant time
+- no loops 
+2 Sorted list, find first and last
+
+Big-O-name, # of operations, Algorithm
+n^2 - O(n^2), quadratic - compare all numbers
+2n - O(n), linear - 2n - find min and max numbers
+2 - O(1), constant - 2 - sorted list, find first and last 
+
+Super Fast                      Super Slow
+O(1), constant
+      O(logn), logarithmic
+                O(n), linear
+                       O(n^2), quadratic
+                                O(k^n), exponential

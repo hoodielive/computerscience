@@ -1,5 +1,18 @@
 Algorithms 
 
 Time Complexity -> what makes an algorithm fast? 
+How many primitive operations are executed? 
+    
+Time - how long does it take to complete as the input grows. 
+..with respect to input size. 
+..and assuming worst case scenarios. 
 
+Space Complexity - how much memory is used? 
+
+Problem: Search Query 
+Kayak.com - Given a list of hotels, return the price range of hotels in a given search result. 
+
+How would you solve this? 
+- We'd expect that the more data we have, the longer it will take to figure out the min and max required for the range. 
+- As our dataset grows, the cost can grow really slow or fast. 
 
