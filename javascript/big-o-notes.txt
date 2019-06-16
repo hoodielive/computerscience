@@ -40,3 +40,8 @@ O(1), constant
 
 * Think about speed when there is a lag? (Which algorithms are insufficient for the task at hand)? 
 
+What are some simple, native JS, methods, expressions and operations? 
+- Loops (stay away from them) 
+- pop
+const arr = [1,2,3]
+arr.pop() // => [1,2] 
