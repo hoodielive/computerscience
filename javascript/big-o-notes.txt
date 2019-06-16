@@ -37,3 +37,6 @@ O(1), constant
                 O(n), linear
                        O(n^2), quadratic
                                 O(k^n), exponential
+
+* Think about speed when there is a lag? (Which algorithms are insufficient for the task at hand)? 
+
