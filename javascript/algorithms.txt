@@ -1,0 +1,5 @@
+Algorithms 
+
+Time Complexity -> what makes an algorithm fast? 
+
+
