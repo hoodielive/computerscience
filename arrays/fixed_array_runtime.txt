@@ -1,0 +1,10 @@
+Fixed Array Run Time
+Insert (rand) = O(n) - Linear 
+Insert (front) = O(n) - Linear 
+Insert (back) = O(1) - constant
+Delete (front) = O(n) - Linear
+Delete (back) = O(1) - constant
+Search (unsorted) - O(n) - Linear
+Search (sorted) - Log(n) 
+
+
