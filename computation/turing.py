@@ -12,7 +12,7 @@ def simulate(instructions):
     state = "s1" 
 
     for _ in range(8):
-        print(tape)
+        print("".join(tape))
         key = (tape[head], state) 
         tape_sym, head_dir, new_state = instructions[key]
         tape[head] = tape_sym
