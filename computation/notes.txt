@@ -1,0 +1,13 @@
+Simplicity 
+	Turing Machine
+	Lambda Calculus
+Limits 
+	The Halting Problem (undeciable problem)
+Structure
+	Turing Equivalence (Mathematical Proofs)
+	Chomsky Hierarchy (gleaned from linguisitics) 
+   		1. Regular expressions
+		2. Recognize Python (requires less complexity)
+		3. Recognize C++, Javascript
+		4. Turing-equivalent
+		Finite state machines
