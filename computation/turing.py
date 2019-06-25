@@ -7,14 +7,8 @@ X_B = {
 }
 
 def simulate(instructions):
-    tape = ["B", "B"]
-    head = 0 
-    state = "s1" 
-
+    tape, head, state = ["B", "B"], 0, "s1"
     for _ in range(8):
-        print(state.rjust(4) + ": " + "".join(tape))
-        print("      " + " " * head + "^")
-        key = (tape[head], state) 
         tape[head], head_dir, state = instructions[(tape[head], state)]
         head += 1 if head_dir == "R" else -1
 
