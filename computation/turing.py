@@ -15,9 +15,7 @@ def simulate(instructions):
         print(state.rjust(4) + ": " + "".join(tape))
         print("      " + " " * head + "^")
         key = (tape[head], state) 
-        tape_sym, head_dir, new_state = instructions[key]
-        tape[head] = tape_sym
+        tape[head], head_dir, state = instructions[(tape[head], state)]
         head += 1 if head_dir == "R" else -1
-        state = new_state
 
 simulate(X_B)
