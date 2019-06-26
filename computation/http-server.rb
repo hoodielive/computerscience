@@ -9,5 +9,5 @@ def main
 	socket.listen(0)
 	conn_sock, addr_info = socket.accept
 end
-
+# initially ./http-server.rb&; sleep 0; curl 'http://localhost:9000/'
 main
