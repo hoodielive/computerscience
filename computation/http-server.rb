@@ -8,6 +8,8 @@ def main
 	socket.bind(Addrinfo.tcp("127.0.0.1", 9000))
 	socket.listen(0)
 	conn_sock, addr_info = socket.accept
+  puts conn_sock.recv(4096)
+
 end
 # initially ./http-server.rb&; sleep 0; curl 'http://localhost:9000/'
 main
